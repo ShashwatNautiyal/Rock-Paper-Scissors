@@ -54,7 +54,7 @@ button {
 }
 
 .match h1 {
-	font-size: 40px;
+	font-size: 5em;
 }
 
 .player-hand {
@@ -133,4 +133,30 @@ div.fade-in {
 	100% {
 		transform: translateY(-15px);
 	}
+}
+
+@media (max-width: 673px){
+	body *{
+		font-size: 0.85em;
+	}
+
+	.match h1{
+		font-size: 2em;
+	}
+	.hands img{
+		width: 100px;
+		overflow: hidden;
+		background-color: #546; 
+	}
+
+	.match > *{
+		margin: 50px 0;
+	}
+
+
+	.match {
+		width: 100vw;
+		height: 500px;
+	}
+
 }
